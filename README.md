@@ -22,7 +22,7 @@ $(T(n) \in O(log_2(n)) \implies T(n) \in O(log_5(n))) \land (T(n) \in O(log_5(n)
 
 #### Part One
 
-$(T(n) \in O(log_2(n)) \implies T(n) \in O(log_5(n)))$
+$T(n) \in O(log_2(n)) \implies T(n) \in O(log_5(n))$
 
 $(\exists c, n_0: T(n) \leq c \cdot log_2(n), \forall n \geq n_0) \implies (\exists c, n_0: T(n) \leq c \cdot log_5(n), \forall n \geq n_0)$    // Defintion of O
 
@@ -40,7 +40,7 @@ $True$    //Self-implication
 
 #### Part Two
 
-$(T(n) \in O(log_5(n)) \implies T(n) \in O(log_2(n)))$
+$T(n) \in O(log_5(n)) \implies T(n) \in O(log_2(n))$
 
 $(\exists c, n_0: T(n) \leq c \cdot log_5(n), \forall n \geq n_0) \implies (\exists c, n_0: T(n) \leq c \cdot log_2(n), \forall n \geq n_0)$    // Defintion of O
 

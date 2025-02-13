@@ -12,7 +12,7 @@ might help with the notation for mathematical expressions.
 
 $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0$
 
-# Proof
+## Proof
 
 $T(n) \in O(log_2(n)) \iff T(n) \in O(log_5(n))$
 

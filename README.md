@@ -18,7 +18,7 @@ $T(n) \in O(log_2(n)) \iff T(n) \in O(log_5(n))$
 
 $(T(n) \in O(log_2(n)) \implies T(n) \in O(log_5(n))) \land (T(n) \in O(log_5(n)) \implies T(n) \in O(log_2(n)))$  //Definition of $\iff$
 
-## Solve Each Side of $\land$ Seperatly:
+## Solve Each Side of $\land$ Seperatly
 
 ### First Part
 

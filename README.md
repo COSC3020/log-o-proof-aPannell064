@@ -32,7 +32,7 @@ $\forall c, \exists c_0: (\exists n_0: T(n) \leq c \cdot log_2(n), \forall n \ge
 
 $\exists c_0: (\exists n_0: T(n) \leq c \cdot log_2(n), \forall n \geq n_0) \implies (\exists n_0: T(n) \leq c_0 \cdot log_5(n), \forall n \geq n_0)$    // Remove $\forall c$ quantifier
 
-$(\exists n_0: T(n) \leq c \cdot log_2(n), \forall n \geq n_0) \implies (\exists n_0: T(n) \leq \frac{c}{log_5(2)} \cdot log_5(n) \forall n \geq n_0)$    // Remove $\exists c_0$ quantifier, replacing $c_0$ with $\frac{c}{log_5(2)}$
+$(\exists n_0: T(n) \leq c \cdot log_2(n), \forall n \geq n_0) \implies (\exists n_0: T(n) \leq \frac{c}{log_5(2)} \cdot log_5(n), \forall n \geq n_0)$    // Remove $\exists c_0$ quantifier, replacing $c_0$ with $\frac{c}{log_5(2)}$
 
 $(\exists n_0: T(n) \leq c \cdot log_2(n), \forall n \geq n_0) \implies (\exists n_0: T(n) \leq c \cdot log_2(n), \forall n \geq n_0)$    // Log base conversion
 
@@ -50,7 +50,7 @@ $\forall c, \exists c_0: (\exists n_0: T(n) \leq c \cdot log_5(n), \forall n \ge
 
 $\exists c_0: (\exists n_0: T(n) \leq c \cdot log_5(n), \forall n \geq n_0) \implies (\exists n_0: T(n) \leq c_0 \cdot log_2(n), \forall n \geq n_0)$    // Remove $\forall c$ quantifier
 
-$(\exists n_0: T(n) \leq c \cdot log_5(n), \forall n \geq n_0) \implies (\exists n_0: T(n) \leq \frac{c}{log_2(5)} \cdot log_2(n) \forall n \geq n_0)$    // Remove $\exists c_0$ quantifier, replacing $c_0$ with $\frac{c}{log_2(5)}$
+$(\exists n_0: T(n) \leq c \cdot log_5(n), \forall n \geq n_0) \implies (\exists n_0: T(n) \leq \frac{c}{log_2(5)} \cdot log_2(n), \forall n \geq n_0)$    // Remove $\exists c_0$ quantifier, replacing $c_0$ with $\frac{c}{log_2(5)}$
 
 $(\exists n_0: T(n) \leq c \cdot log_5(n), \forall n \geq n_0) \implies (\exists n_0: T(n) \leq c \cdot log_5(n), \forall n \geq n_0)$    // Log base conversion
 

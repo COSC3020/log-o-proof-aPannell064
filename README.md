@@ -40,6 +40,8 @@ $True$    //Self-implication
 
 #### Part Two
 
+$(T(n) \in O(log_5(n)) \implies T(n) \in O(log_2(n)))$
+
 $(\exists c, n_0: T(n) \leq c \cdot log_5(n), \forall n \geq n_0) \implies (\exists c, n_0: T(n) \leq c \cdot log_2(n), \forall n \geq n_0)$    // Defintion of O
 
 $(\exists c, n_0: T(n) \leq c \cdot log_5(n), \forall n \geq n_0) \implies (\exists c_0, n_0: T(n) \leq c_0 \cdot log_2(n), \forall n \geq n_0)$    // Rename second c to $c_0$ for simplicty

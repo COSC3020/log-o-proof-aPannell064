@@ -16,9 +16,9 @@ $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0
 
 $T(n) \in O(log_2(n)) \iff T(n) \in O(log_5(n))$
 
-$(T(n) \in O(log_2(n)) \implies T(n) \in O(log_5(n))) \land (T(n) \in O(log_5(n)) \implies $T(n) \in O(log_2(n)))$  //Definition of $\iff$
+$(T(n) \in O(log_2(n)) \implies T(n) \in O(log_5(n))) \land (T(n) \in O(log_5(n)) \implies T(n) \in O(log_2(n)))$  //Definition of $\iff$
 
-## Solve Each Side of the and Seperatly:
+## Solve Each Side of $\land$ Seperatly:
 
 ### First Part
 

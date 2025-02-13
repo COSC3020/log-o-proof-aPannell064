@@ -56,6 +56,8 @@ $(\exists n_0: T(n) \leq c \cdot log_5(n), \forall n \geq n_0) \implies (\exists
 
 $True$    // Self-implication
 
+Q.E.D.
+
 ### Wrap-up
 
 $(T(n) \in O(log_2(n)) \implies T(n) \in O(log_5(n))) \land (T(n) \in O(log_5(n)) \implies T(n) \in O(log_2(n)))$
